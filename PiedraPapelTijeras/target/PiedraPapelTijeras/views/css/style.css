@@ -1,0 +1,110 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 400px;
+    flex-direction: column;
+    z-index: 0;
+}
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 400px;
+    position: relative;
+}
+.contenedor2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    height: 200px;
+    flex-direction: column;
+    color: paleturquoise;
+}
+body{
+    background-color: #260071;
+    font-family: Verdana;
+    height: 100vh!important;
+}
+.boton{
+    padding: 10px 20px;
+    background-color: #260071;
+    color: turquoise;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: turquoise;
+    color: #260071;
+    cursor: pointer;
+}
+.derecha{
+    text-align: right;
+    padding-right: 20px;
+}
+.izquierda{
+    text-align: left;
+}
+.centrado{
+    text-align: center;
+}
+.cajaFlex{
+    display: flex;
+    margin: 10px 0;
+}
+.cajaFlex1{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    border: 1px solid #260071;
+}
+.margen-arriba{
+    margin-top: 50px;
+}
+.boton-letra{
+    width: 20px;
+}
+#contadorFallos {
+    color: darkred;
+}
+#salir, #nuevaP{
+    display: none;
+    z-index: 1001;
+}
+.morado{
+    background-color: #260071;
+}
+input[type="radio"]{
+    /*Para no mostrar el radio boton*/
+    display: none;
+}
+.imagenes:hover,.botones{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.botones{
+    justify-content: space-evenly;
+}
+.maquina{
+    /*display: none;*/
+    visibility: hidden; /*deja el espacio en el documento pero no se ve*/
+}
+.maquina-respuesta{
+    display: block;
+    border-left: 5px solid rgb(121, 221, 205);
+}
+.marquesina{
+    display: none;
+    position: absolute;
+    left: 40%;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+}
+.imagenes{
+    max-width: 100%;
+}
